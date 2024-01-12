@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=YouTube+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: "YouTube Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  text-align: center;
+}
+
+
+
+table {
+  border: 1px #a39485 solid;
+  font-size: .9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+    font-weight: bold;
+  color: #fff;
+  background: #73685d;
+}
+  
+
+  
+ td, th {
+
+  vertical-align: middle;
+  border-spacing: 0;
+}
+  
+ td {
+  border: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 0, 128);
+	border-bottom: 1px rgb(255, 0, 128) solid;
+}
+
+/* 모달창의 배경을 만든다 */
+.modal__background{
+  position: fixed;
+  top:0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+ 
+/* 모달창 영역을 꾸민다 */
+.modal__box{
+  position: absolute;
+  top: calc(50vh - 100px); left: calc(50vw - 200px);
+  background-color: white;
+  display: flex; justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  flex-direction: column;
+}
+
+button {
+  color: #444444;
+  background: #F3F3F3;
+  border: 1px #DADADA solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 9pt;
+  outline: none;
+}
+
+button:hover {
+  border: 1px #C6C6C6 solid;
+  box-shadow: 1px 1px 1px #EAEAEA;
+  color: #333333;
+  background: #F7F7F7;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
